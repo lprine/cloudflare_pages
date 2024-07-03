@@ -22,9 +22,8 @@
     <div id="cf-error-details" class="p-0">
         <header class="mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8">
             <h1 class="inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2">
-              <span class="inline-block">Connection timed out - I will need to add CF variables</span>
               <span class="code-label">Error code 522</span>
-                <h1> 5XX Level Errors </h1>
+                <h1> Connection timed out - I will need to add CF variables </h1>
               <h2>::CLOUDFLARE_ERROR_500S_BOX::</h2>
             </h1>
             <div>
@@ -107,12 +106,12 @@
 
         <div class="cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300">
   <p class="text-13">
-    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">000000000000000</strong></span>
+    <span class="cf-footer-item sm:block sm:mb-1">Cloudflare Ray ID: <strong class="font-semibold">::RAY_ID::</strong></span>
     <span class="cf-footer-separator sm:hidden">&bull;</span>
     <span id="cf-footer-item-ip" class="cf-footer-item hidden sm:block sm:mb-1">
       Your IP:
       <button type="button" id="cf-footer-ip-reveal" class="cf-footer-ip-reveal-btn">Click to reveal</button>
-      <span class="hidden" id="cf-footer-ip">0.0.0.0</span>
+      <span class="hidden" id="cf-footer-ip">::CLIENT_IP::</span>
       <span class="cf-footer-separator sm:hidden">&bull;</span>
     </span>
     <span class="cf-footer-item sm:block sm:mb-1"><span>Performance &amp; security by</span> <a rel="noopener noreferrer" href="https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=cloudflarepreview.com" id="brand_link" target="_blank">Cloudflare</a></span>
